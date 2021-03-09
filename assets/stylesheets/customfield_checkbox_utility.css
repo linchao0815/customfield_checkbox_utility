@@ -8,7 +8,16 @@ span.user_cf.check_box_group {
   span.user_cf.check_box_group label {
     width: 150px;
   }
+  span.project_enumeration_cf.check_box_group {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap; 
+  }
   
+  span.project_enumeration_cf.check_box_group label {
+    width: 100px;
+  }  
   span.list_cf.check_box_group {
     display: flex;
     display: -webkit-flex;

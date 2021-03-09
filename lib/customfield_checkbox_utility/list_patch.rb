@@ -4,7 +4,9 @@ module CustomfieldCheckboxUtility
     def self.included(base)
       base.send(:include, InstanceMethods)
       base.class_eval do
-        alias_method_chain :check_box_edit_tag, :checkall
+        #alias_method_chain :check_box_edit_tag, :checkall
+	alias_method :check_box_edit_tag_without_checkall, :check_box_edit_tag
+	alias_method :check_box_edit_tag, :check_box_edit_tag_with_checkall
       end
     end
     
