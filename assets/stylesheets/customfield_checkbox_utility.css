@@ -15,9 +15,7 @@ span.user_cf.check_box_group {
     -webkit-flex-wrap: wrap; 
   }
   
-  span.project_enumeration_cf.check_box_group label {
-    width: 100px;
-  }  
+ 
   span.list_cf.check_box_group {
     display: flex;
     display: -webkit-flex;
